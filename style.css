@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+
+}
+.parallax-inner{
+    background-image:linear-gradient(rgb(30, 111, 233),rgb(255, 255, 255));
+    font-family: 'Bebas Neue', cursive;
+}
+.parallax-inner img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+#Bio{
+    color: rgba(77, 70, 70, 0.671);
+    margin: 20px;
+ 
+}
+.menu{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+z-index:10;
+}
+.link{
+    padding: 5px;
+    color: honeydew;
+}
+.link:hover{
+    background-color: rgb(157, 188, 245);
+}
+.heading{
+    font-size: 50px;
+    color: indigo;
+}
